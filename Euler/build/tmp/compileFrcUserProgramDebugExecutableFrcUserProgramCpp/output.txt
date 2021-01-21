@@ -1,0 +1,66 @@
+See file:///Users/adi_shukla/Documents/Euler/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
+compiling Spinner.cpp successful.
+
+compiling Climber.cpp successful.
+
+compiling Limelight.cpp successful.
+
+compiling RaspberryPi.cpp failed.
+/Users/adi_shukla/Documents/Euler/src/main/cpp/RaspberryPi.cpp: In member function 'double RaspberryPi::angleOffset(double)':
+/Users/adi_shukla/Documents/Euler/src/main/cpp/RaspberryPi.cpp:47:6: error: 'math' was not declared in this scope
+  if (math.abs(offset)<angleError){
+      ^~~~
+/Users/adi_shukla/Documents/Euler/src/main/cpp/RaspberryPi.cpp:47:6: note: suggested alternative:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/6986e48ed19c3945ea6394f866057e00/wpilibc-cpp-2020.3.2-headers/frc/TimedRobot.h:11:0,
+                 from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:10,
+                 from /Users/adi_shukla/Documents/Euler/src/main/cpp/RaspberryPi.cpp:1:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/5ef04b8b49a372c94d8e7b06063fede6/wpiutil-cpp-2020.3.2-headers/units/units.h:2750:12: note:   'units::math'
+  namespace math
+            ^~~~
+/Users/adi_shukla/Documents/Euler/src/main/cpp/RaspberryPi.cpp:51:2: error: expected ';' before '}' token
+  }
+  ^
+/Users/adi_shukla/Documents/Euler/src/main/cpp/RaspberryPi.cpp:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+
+compiling Auton.cpp failed.
+/Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:15:45: error: no 'bool Auton::AutonOrginXY(double, double)' member function declared in class 'Auton'
+ bool Auton::AutonOrginXY (double x, double y) {
+                                             ^
+/Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:155:6: error: prototype for 'bool Auton::driveToCoordinates(double, double)' does not match any in class 'Auton'
+ bool Auton::driveToCoordinates(double x, double y)
+      ^~~~~
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:33:0,
+                 from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+/Users/adi_shukla/Documents/Euler/src/main/include/Auton.h:45:7: error: candidate is: bool Auton::driveToCoordinates(double, double, double)
+  bool driveToCoordinates(double x, double y, double angle);
+       ^~~~~~~~~~~~~~~~~~
+
+compiling BallIntake.cpp successful.
+
+compiling Robot.cpp failed.
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:0:
+/Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp: In member function 'virtual void Robot::RobotInit()':
+/Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:39:17: error: expected ')' before numeric constant
+ #define e       2.71828
+                 ^
+/Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:24:26: note: in expansion of macro 'e'
+   catch (std::exception& e) {
+                          ^
+/Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:39:17: error: expected '{' before numeric constant
+ #define e       2.71828
+                 ^
+/Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:24:26: note: in expansion of macro 'e'
+   catch (std::exception& e) {
+                          ^
+/Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:24:27: error: expected ';' before ')' token
+   catch (std::exception& e) {
+                           ^
+/Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:28:3: warning: statement has no effect [-Wunused-value]
+   }
+   ^
+
+compiling DalekDrive.cpp successful.
+
+Finished compileFrcUserProgramDebugExecutableFrcUserProgramCpp, see full log file:///Users/adi_shukla/Documents/Euler/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt.

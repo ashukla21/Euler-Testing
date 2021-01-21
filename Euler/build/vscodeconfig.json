@@ -1,0 +1,460 @@
+[
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "debug",
+    "cppPath": "/Users/adi_shukla/.gradle/toolchains/frc/2020/roborio/bin/arm-frc2020-linux-gnueabi-g++",
+    "cPath": "/Users/adi_shukla/.gradle/toolchains/frc/2020/roborio/bin/arm-frc2020-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/6986e48ed19c3945ea6394f866057e00/wpilibc-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3a96e628fa65dc0a7695e6dacb512c95/ntcore-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/106378dbeddcdc7533b9dd74108b070a/hal-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/5ef04b8b49a372c94d8e7b06063fede6/wpiutil-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3cb523465a90901b3be49ad79a3e339c/chipobject-2020.10.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/f5e35b59fe3863c322549c4d62502d0a/netcomm-2020.10.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b63c8c2e1cf5942da87aea822b10e20f/visa-2020.10.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b9be26b4c68ddaff30d28cfcadb69501/cameraserver-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/bb87a1f94b7c25c47765e4604d41ad99/cscore-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/9bc03b85dd0069a92c15ddf13d4060a5/opencv-cpp-3.4.7-2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0fa7072c877d3e82bb43b85e6b7290e4/navx-cpp-3.1.409-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/421748f0e0c16950ad68e82522644357/cci-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/094f7bcdac5465bd4083ea8d7d25d416/diagnostics-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0c063a4a43612f6d5ceb109c67054234/canutils-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/33b26132c4cb382af7110bc3505c8f2e/platform-stub-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/d90b2217a835d5f885ec6d2c672999f2/core-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3e573433e531a31dd58089057a9d8288/wpilibOldCommands-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/5eb7f07a0685d9d0cb6b41e7bd79b70b/SparkMax-driver-1.5.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/2c4fb64288062c678156f53e0434842f/wpilibNewCommands-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/Documents/Euler/src/main/include/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/573e050d994723b27fd8304ab6ca3539/wpilibc-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28495b64f30b1ff02a8cb3accc0c89f7/ntcore-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/19d7004fa2f1cc00e5b06cb90aee9a29/hal-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/6ceedd72801d64d1c439fa6214cc7d07/wpiutil-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/65aa30e6f4b59748be9982b0138a4a2e/cameraserver-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/fad2723a1186b6d3eacf9ffbec88009b/cscore-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/99dfd408f6e24877335c81875dc4d01b/opencv-cpp-3.4.7-2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b3a4582f49aa8596cab6e240bf0610bd/navx-cpp-3.1.409-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/cb8caf5be013a6d03fe452a57251e826/wpilibOldCommands-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/82dd74b81bc5518b6ac9b5962782dbb3/wpilibNewCommands-cpp-2020.3.2-sources/"
+    ],
+    "allLibSources": [
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/573e050d994723b27fd8304ab6ca3539/wpilibc-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28495b64f30b1ff02a8cb3accc0c89f7/ntcore-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/19d7004fa2f1cc00e5b06cb90aee9a29/hal-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/6ceedd72801d64d1c439fa6214cc7d07/wpiutil-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/65aa30e6f4b59748be9982b0138a4a2e/cameraserver-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/fad2723a1186b6d3eacf9ffbec88009b/cscore-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/99dfd408f6e24877335c81875dc4d01b/opencv-cpp-3.4.7-2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b3a4582f49aa8596cab6e240bf0610bd/navx-cpp-3.1.409-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/cb8caf5be013a6d03fe452a57251e826/wpilibOldCommands-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/82dd74b81bc5518b6ac9b5962782dbb3/wpilibNewCommands-cpp-2020.3.2-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/6986e48ed19c3945ea6394f866057e00/wpilibc-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3a96e628fa65dc0a7695e6dacb512c95/ntcore-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/106378dbeddcdc7533b9dd74108b070a/hal-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/5ef04b8b49a372c94d8e7b06063fede6/wpiutil-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3cb523465a90901b3be49ad79a3e339c/chipobject-2020.10.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/f5e35b59fe3863c322549c4d62502d0a/netcomm-2020.10.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b63c8c2e1cf5942da87aea822b10e20f/visa-2020.10.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b9be26b4c68ddaff30d28cfcadb69501/cameraserver-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/bb87a1f94b7c25c47765e4604d41ad99/cscore-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/9bc03b85dd0069a92c15ddf13d4060a5/opencv-cpp-3.4.7-2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0fa7072c877d3e82bb43b85e6b7290e4/navx-cpp-3.1.409-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/421748f0e0c16950ad68e82522644357/cci-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/094f7bcdac5465bd4083ea8d7d25d416/diagnostics-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0c063a4a43612f6d5ceb109c67054234/canutils-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/33b26132c4cb382af7110bc3505c8f2e/platform-stub-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/d90b2217a835d5f885ec6d2c672999f2/core-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3e573433e531a31dd58089057a9d8288/wpilibOldCommands-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/5eb7f07a0685d9d0cb6b41e7bd79b70b/SparkMax-driver-1.5.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/2c4fb64288062c678156f53e0434842f/wpilibNewCommands-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/Documents/Euler/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/adi_shukla/Documents/Euler/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/adi_shukla/Documents/Euler/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-g",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-Og"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/6986e48ed19c3945ea6394f866057e00/wpilibc-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3a96e628fa65dc0a7695e6dacb512c95/ntcore-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/106378dbeddcdc7533b9dd74108b070a/hal-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/5ef04b8b49a372c94d8e7b06063fede6/wpiutil-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3cb523465a90901b3be49ad79a3e339c/chipobject-2020.10.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/f5e35b59fe3863c322549c4d62502d0a/netcomm-2020.10.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b63c8c2e1cf5942da87aea822b10e20f/visa-2020.10.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b9be26b4c68ddaff30d28cfcadb69501/cameraserver-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/bb87a1f94b7c25c47765e4604d41ad99/cscore-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/9bc03b85dd0069a92c15ddf13d4060a5/opencv-cpp-3.4.7-2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0fa7072c877d3e82bb43b85e6b7290e4/navx-cpp-3.1.409-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/421748f0e0c16950ad68e82522644357/cci-5.18.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/094f7bcdac5465bd4083ea8d7d25d416/diagnostics-5.18.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0c063a4a43612f6d5ceb109c67054234/canutils-5.18.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/33b26132c4cb382af7110bc3505c8f2e/platform-stub-5.18.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/d90b2217a835d5f885ec6d2c672999f2/core-5.18.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3e573433e531a31dd58089057a9d8288/wpilibOldCommands-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/5eb7f07a0685d9d0cb6b41e7bd79b70b/SparkMax-driver-1.5.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/2c4fb64288062c678156f53e0434842f/wpilibNewCommands-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/Documents/Euler/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/adi_shukla/Documents/Euler/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-g",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/adi_shukla/Documents/Euler/src/main/include/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-g",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  },
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "release",
+    "cppPath": "/Users/adi_shukla/.gradle/toolchains/frc/2020/roborio/bin/arm-frc2020-linux-gnueabi-g++",
+    "cPath": "/Users/adi_shukla/.gradle/toolchains/frc/2020/roborio/bin/arm-frc2020-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/6986e48ed19c3945ea6394f866057e00/wpilibc-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3a96e628fa65dc0a7695e6dacb512c95/ntcore-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/106378dbeddcdc7533b9dd74108b070a/hal-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/5ef04b8b49a372c94d8e7b06063fede6/wpiutil-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3cb523465a90901b3be49ad79a3e339c/chipobject-2020.10.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/f5e35b59fe3863c322549c4d62502d0a/netcomm-2020.10.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b63c8c2e1cf5942da87aea822b10e20f/visa-2020.10.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b9be26b4c68ddaff30d28cfcadb69501/cameraserver-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/bb87a1f94b7c25c47765e4604d41ad99/cscore-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/9bc03b85dd0069a92c15ddf13d4060a5/opencv-cpp-3.4.7-2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0fa7072c877d3e82bb43b85e6b7290e4/navx-cpp-3.1.409-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/421748f0e0c16950ad68e82522644357/cci-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/094f7bcdac5465bd4083ea8d7d25d416/diagnostics-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0c063a4a43612f6d5ceb109c67054234/canutils-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/33b26132c4cb382af7110bc3505c8f2e/platform-stub-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/d90b2217a835d5f885ec6d2c672999f2/core-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3e573433e531a31dd58089057a9d8288/wpilibOldCommands-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/5eb7f07a0685d9d0cb6b41e7bd79b70b/SparkMax-driver-1.5.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/2c4fb64288062c678156f53e0434842f/wpilibNewCommands-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/Documents/Euler/src/main/include/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/573e050d994723b27fd8304ab6ca3539/wpilibc-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28495b64f30b1ff02a8cb3accc0c89f7/ntcore-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/19d7004fa2f1cc00e5b06cb90aee9a29/hal-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/6ceedd72801d64d1c439fa6214cc7d07/wpiutil-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/65aa30e6f4b59748be9982b0138a4a2e/cameraserver-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/fad2723a1186b6d3eacf9ffbec88009b/cscore-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/99dfd408f6e24877335c81875dc4d01b/opencv-cpp-3.4.7-2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b3a4582f49aa8596cab6e240bf0610bd/navx-cpp-3.1.409-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/cb8caf5be013a6d03fe452a57251e826/wpilibOldCommands-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/82dd74b81bc5518b6ac9b5962782dbb3/wpilibNewCommands-cpp-2020.3.2-sources/"
+    ],
+    "allLibSources": [
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/573e050d994723b27fd8304ab6ca3539/wpilibc-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28495b64f30b1ff02a8cb3accc0c89f7/ntcore-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/19d7004fa2f1cc00e5b06cb90aee9a29/hal-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/6ceedd72801d64d1c439fa6214cc7d07/wpiutil-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/65aa30e6f4b59748be9982b0138a4a2e/cameraserver-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/fad2723a1186b6d3eacf9ffbec88009b/cscore-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/99dfd408f6e24877335c81875dc4d01b/opencv-cpp-3.4.7-2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b3a4582f49aa8596cab6e240bf0610bd/navx-cpp-3.1.409-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/cb8caf5be013a6d03fe452a57251e826/wpilibOldCommands-cpp-2020.3.2-sources/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/82dd74b81bc5518b6ac9b5962782dbb3/wpilibNewCommands-cpp-2020.3.2-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/6986e48ed19c3945ea6394f866057e00/wpilibc-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3a96e628fa65dc0a7695e6dacb512c95/ntcore-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/106378dbeddcdc7533b9dd74108b070a/hal-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/5ef04b8b49a372c94d8e7b06063fede6/wpiutil-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3cb523465a90901b3be49ad79a3e339c/chipobject-2020.10.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/f5e35b59fe3863c322549c4d62502d0a/netcomm-2020.10.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b63c8c2e1cf5942da87aea822b10e20f/visa-2020.10.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b9be26b4c68ddaff30d28cfcadb69501/cameraserver-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/bb87a1f94b7c25c47765e4604d41ad99/cscore-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/9bc03b85dd0069a92c15ddf13d4060a5/opencv-cpp-3.4.7-2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0fa7072c877d3e82bb43b85e6b7290e4/navx-cpp-3.1.409-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/421748f0e0c16950ad68e82522644357/cci-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/094f7bcdac5465bd4083ea8d7d25d416/diagnostics-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0c063a4a43612f6d5ceb109c67054234/canutils-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/33b26132c4cb382af7110bc3505c8f2e/platform-stub-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/d90b2217a835d5f885ec6d2c672999f2/core-5.18.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3e573433e531a31dd58089057a9d8288/wpilibOldCommands-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/5eb7f07a0685d9d0cb6b41e7bd79b70b/SparkMax-driver-1.5.1-headers/",
+      "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/2c4fb64288062c678156f53e0434842f/wpilibNewCommands-cpp-2020.3.2-headers/",
+      "/Users/adi_shukla/Documents/Euler/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/adi_shukla/Documents/Euler/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/adi_shukla/Documents/Euler/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-g",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-O2"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/6986e48ed19c3945ea6394f866057e00/wpilibc-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3a96e628fa65dc0a7695e6dacb512c95/ntcore-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/106378dbeddcdc7533b9dd74108b070a/hal-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/5ef04b8b49a372c94d8e7b06063fede6/wpiutil-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3cb523465a90901b3be49ad79a3e339c/chipobject-2020.10.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/f5e35b59fe3863c322549c4d62502d0a/netcomm-2020.10.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b63c8c2e1cf5942da87aea822b10e20f/visa-2020.10.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/b9be26b4c68ddaff30d28cfcadb69501/cameraserver-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/bb87a1f94b7c25c47765e4604d41ad99/cscore-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/9bc03b85dd0069a92c15ddf13d4060a5/opencv-cpp-3.4.7-2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0fa7072c877d3e82bb43b85e6b7290e4/navx-cpp-3.1.409-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/421748f0e0c16950ad68e82522644357/cci-5.18.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/094f7bcdac5465bd4083ea8d7d25d416/diagnostics-5.18.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0c063a4a43612f6d5ceb109c67054234/canutils-5.18.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/33b26132c4cb382af7110bc3505c8f2e/platform-stub-5.18.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/d90b2217a835d5f885ec6d2c672999f2/core-5.18.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/3e573433e531a31dd58089057a9d8288/wpilibOldCommands-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/5eb7f07a0685d9d0cb6b41e7bd79b70b/SparkMax-driver-1.5.1-headers/",
+          "/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/2c4fb64288062c678156f53e0434842f/wpilibNewCommands-cpp-2020.3.2-headers/",
+          "/Users/adi_shukla/Documents/Euler/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/adi_shukla/Documents/Euler/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-g",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/adi_shukla/Documents/Euler/src/main/include/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-g",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  }
+]

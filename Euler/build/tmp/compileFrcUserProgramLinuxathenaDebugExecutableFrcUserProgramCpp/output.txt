@@ -1,0 +1,37 @@
+See file:///Users/adi_shukla/Documents/Euler/build/tmp/compileFrcUserProgramLinuxathenaDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramLinuxathenaDebugExecutableFrcUserProgramCpp.
+compiling Robot.cpp failed.
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:0:
+/Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:29:10: fatal error: Climb.h: No such file or directory
+ #include <Climb.h>
+          ^~~~~~~~~
+compilation terminated.
+
+compiling Auton.cpp failed.
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:0:
+/Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:29:10: fatal error: Climb.h: No such file or directory
+ #include <Climb.h>
+          ^~~~~~~~~
+compilation terminated.
+
+compiling DalekDrive.cpp failed.
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:0:
+/Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:29:10: fatal error: Climb.h: No such file or directory
+ #include <Climb.h>
+          ^~~~~~~~~
+compilation terminated.
+
+compiling BallIntake.cpp failed.
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/BallIntake.cpp:1:0:
+/Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:29:10: fatal error: Climb.h: No such file or directory
+ #include <Climb.h>
+          ^~~~~~~~~
+compilation terminated.
+
+compiling RaspberryPi.cpp failed.
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/RaspberryPi.cpp:1:0:
+/Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:29:10: fatal error: Climb.h: No such file or directory
+ #include <Climb.h>
+          ^~~~~~~~~
+compilation terminated.
+
+Finished compileFrcUserProgramLinuxathenaDebugExecutableFrcUserProgramCpp, see full log file:///Users/adi_shukla/Documents/Euler/build/tmp/compileFrcUserProgramLinuxathenaDebugExecutableFrcUserProgramCpp/output.txt.

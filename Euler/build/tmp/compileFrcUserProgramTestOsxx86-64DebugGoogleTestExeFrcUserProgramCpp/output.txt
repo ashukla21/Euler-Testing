@@ -1,0 +1,440 @@
+See file:///Users/adi_shukla/Documents/Euler/build/tmp/compileFrcUserProgramTestOsxx86-64DebugGoogleTestExeFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramTestOsxx86-64DebugGoogleTestExeFrcUserProgramCpp.
+compiling Auton.cpp successful.
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:18:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0fa7072c877d3e82bb43b85e6b7290e4/navx-cpp-3.1.409-headers/AHRS.h:236:12: warning: 'PIDGet' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+    double PIDGet();
+           ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/6986e48ed19c3945ea6394f866057e00/wpilibc-cpp-2020.3.2-headers/frc/PIDSource.h:33:18: note: overridden virtual function is here
+  virtual double PIDGet() = 0;
+                 ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:19:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANSparkMax.h:37:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANDigitalInput.h:32:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANEncoder.h:32:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANSensor.h:32:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANSparkMaxLowLevel.h:308:13: warning: anonymous types declared in an anonymous union are an extension [-Wnested-anon-types]
+            struct {
+            ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:20:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/TalonFX.h:158:11: warning: 'ctre::phoenix::motorcontrol::can::TalonFX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+                                        void Set(TalonFXControlMode mode, double value);
+                                             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:20:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/TalonFX.h:197:11: warning: 'ctre::phoenix::motorcontrol::can::TalonFX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+                                        void Set(TalonFXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                                             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:21:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/TalonSRX.h:149:11: warning: 'ctre::phoenix::motorcontrol::can::TalonSRX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+                                        void Set(TalonSRXControlMode mode, double value);
+                                             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:21:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/TalonSRX.h:188:11: warning: 'ctre::phoenix::motorcontrol::can::TalonSRX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+                                        void Set(TalonSRXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                                             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:22:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/VictorSPX.h:256:7: warning: 'ctre::phoenix::motorcontrol::can::VictorSPX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+        void Set(ctre::phoenix::motorcontrol::VictorSPXControlMode mode, double value);
+             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:22:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/VictorSPX.h:294:7: warning: 'ctre::phoenix::motorcontrol::can::VictorSPX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+        void Set(ctre::phoenix::motorcontrol::VictorSPXControlMode mode, double demand0, ctre::phoenix::motorcontrol::DemandType demand1Type, double demand1);
+             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:40:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_TalonFX.h:73:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_TalonFX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(TalonFXControlMode mode, double value);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:40:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_TalonFX.h:74:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_TalonFX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(TalonFXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:41:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_TalonSRX.h:72:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_TalonSRX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(TalonSRXControlMode mode, double value);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:41:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_TalonSRX.h:73:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_TalonSRX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(TalonSRXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:42:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_VictorSPX.h:72:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_VictorSPX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(VictorSPXControlMode mode, double value);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Auton.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:42:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_VictorSPX.h:73:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_VictorSPX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(VictorSPXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+14 warnings generated.
+
+compiling Robot.cpp successful.
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:18:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0fa7072c877d3e82bb43b85e6b7290e4/navx-cpp-3.1.409-headers/AHRS.h:236:12: warning: 'PIDGet' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+    double PIDGet();
+           ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/6986e48ed19c3945ea6394f866057e00/wpilibc-cpp-2020.3.2-headers/frc/PIDSource.h:33:18: note: overridden virtual function is here
+  virtual double PIDGet() = 0;
+                 ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:19:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANSparkMax.h:37:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANDigitalInput.h:32:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANEncoder.h:32:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANSensor.h:32:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANSparkMaxLowLevel.h:308:13: warning: anonymous types declared in an anonymous union are an extension [-Wnested-anon-types]
+            struct {
+            ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:20:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/TalonFX.h:158:11: warning: 'ctre::phoenix::motorcontrol::can::TalonFX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+                                        void Set(TalonFXControlMode mode, double value);
+                                             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:20:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/TalonFX.h:197:11: warning: 'ctre::phoenix::motorcontrol::can::TalonFX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+                                        void Set(TalonFXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                                             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:21:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/TalonSRX.h:149:11: warning: 'ctre::phoenix::motorcontrol::can::TalonSRX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+                                        void Set(TalonSRXControlMode mode, double value);
+                                             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:21:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/TalonSRX.h:188:11: warning: 'ctre::phoenix::motorcontrol::can::TalonSRX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+                                        void Set(TalonSRXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                                             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:22:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/VictorSPX.h:256:7: warning: 'ctre::phoenix::motorcontrol::can::VictorSPX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+        void Set(ctre::phoenix::motorcontrol::VictorSPXControlMode mode, double value);
+             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:22:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/VictorSPX.h:294:7: warning: 'ctre::phoenix::motorcontrol::can::VictorSPX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+        void Set(ctre::phoenix::motorcontrol::VictorSPXControlMode mode, double demand0, ctre::phoenix::motorcontrol::DemandType demand1Type, double demand1);
+             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:40:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_TalonFX.h:73:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_TalonFX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(TalonFXControlMode mode, double value);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:40:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_TalonFX.h:74:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_TalonFX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(TalonFXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:41:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_TalonSRX.h:72:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_TalonSRX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(TalonSRXControlMode mode, double value);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:41:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_TalonSRX.h:73:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_TalonSRX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(TalonSRXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:42:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_VictorSPX.h:72:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_VictorSPX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(VictorSPXControlMode mode, double value);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/Robot.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:42:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_VictorSPX.h:73:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_VictorSPX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(VictorSPXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+14 warnings generated.
+
+compiling DalekDrive.cpp successful.
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:18:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/0fa7072c877d3e82bb43b85e6b7290e4/navx-cpp-3.1.409-headers/AHRS.h:236:12: warning: 'PIDGet' overrides a member function but is not marked 'override' [-Winconsistent-missing-override]
+    double PIDGet();
+           ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/6986e48ed19c3945ea6394f866057e00/wpilibc-cpp-2020.3.2-headers/frc/PIDSource.h:33:18: note: overridden virtual function is here
+  virtual double PIDGet() = 0;
+                 ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:19:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANSparkMax.h:37:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANDigitalInput.h:32:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANEncoder.h:32:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANSensor.h:32:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/28e0aaedd69bb3014a763d19a03f4ed4/SparkMax-cpp-1.5.1-headers/rev/CANSparkMaxLowLevel.h:308:13: warning: anonymous types declared in an anonymous union are an extension [-Wnested-anon-types]
+            struct {
+            ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:20:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/TalonFX.h:158:11: warning: 'ctre::phoenix::motorcontrol::can::TalonFX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+                                        void Set(TalonFXControlMode mode, double value);
+                                             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:20:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/TalonFX.h:197:11: warning: 'ctre::phoenix::motorcontrol::can::TalonFX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+                                        void Set(TalonFXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                                             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:21:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/TalonSRX.h:149:11: warning: 'ctre::phoenix::motorcontrol::can::TalonSRX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+                                        void Set(TalonSRXControlMode mode, double value);
+                                             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:21:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/TalonSRX.h:188:11: warning: 'ctre::phoenix::motorcontrol::can::TalonSRX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+                                        void Set(TalonSRXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                                             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:22:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/VictorSPX.h:256:7: warning: 'ctre::phoenix::motorcontrol::can::VictorSPX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+        void Set(ctre::phoenix::motorcontrol::VictorSPXControlMode mode, double value);
+             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:22:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/VictorSPX.h:294:7: warning: 'ctre::phoenix::motorcontrol::can::VictorSPX::Set' hides overloaded virtual functions [-Woverloaded-virtual]
+        void Set(ctre::phoenix::motorcontrol::VictorSPXControlMode mode, double demand0, ctre::phoenix::motorcontrol::DemandType demand1Type, double demand1);
+             ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/BaseMotorController.h:701:19: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+                                        virtual void Set(ControlMode mode, double demand0, double demand1);
+                                                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/IMotorController.h:68:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::IMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode Mode, double demand0, double demand1) = 0;
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:40:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_TalonFX.h:73:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_TalonFX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(TalonFXControlMode mode, double value);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:40:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_TalonFX.h:74:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_TalonFX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(TalonFXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:41:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_TalonSRX.h:72:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_TalonSRX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(TalonSRXControlMode mode, double value);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:41:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_TalonSRX.h:73:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_TalonSRX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(TalonSRXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:42:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_VictorSPX.h:72:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_VictorSPX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(VictorSPXControlMode mode, double value);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 2)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+In file included from /Users/adi_shukla/Documents/Euler/src/main/cpp/DalekDrive.cpp:1:
+In file included from /Users/adi_shukla/Documents/Euler/src/main/include/Euler.h:20:
+In file included from /Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/7637eb750d4cf80e21a34b0b229e501d/api-cpp-5.18.1-headers/ctre/Phoenix.h:42:
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_VictorSPX.h:73:15: warning: 'ctre::phoenix::motorcontrol::can::WPI_VictorSPX::Set' hides overloaded virtual function [-Woverloaded-virtual]
+        virtual void Set(VictorSPXControlMode mode, double demand0, DemandType demand1Type, double demand1);
+                     ^
+/Users/adi_shukla/.gradle/caches/transforms-2/files-2.1/aaa22f6308a469a605f1e002dd1f2a7a/wpiapi-cpp-5.18.1-headers/ctre/phoenix/motorcontrol/can/WPI_BaseMotorController.h:123:15: note: hidden overloaded virtual function 'ctre::phoenix::motorcontrol::can::WPI_BaseMotorController::Set' declared here: different number of parameters (3 vs 4)
+        virtual void Set(ControlMode mode, double demand0, double demand1);
+                     ^
+14 warnings generated.
+
+Finished compileFrcUserProgramTestOsxx86-64DebugGoogleTestExeFrcUserProgramCpp, see full log file:///Users/adi_shukla/Documents/Euler/build/tmp/compileFrcUserProgramTestOsxx86-64DebugGoogleTestExeFrcUserProgramCpp/output.txt.

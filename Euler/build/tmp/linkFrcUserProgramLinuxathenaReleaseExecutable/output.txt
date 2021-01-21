@@ -1,0 +1,4 @@
+See file:///Users/adi_shukla/Documents/Euler/build/tmp/linkFrcUserProgramLinuxathenaReleaseExecutable/output.txt for all output for linkFrcUserProgramLinuxathenaReleaseExecutable.
+linking frcUserProgram successful.
+
+Finished linkFrcUserProgramLinuxathenaReleaseExecutable, see full log file:///Users/adi_shukla/Documents/Euler/build/tmp/linkFrcUserProgramLinuxathenaReleaseExecutable/output.txt.
